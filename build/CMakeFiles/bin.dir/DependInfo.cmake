@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Pasan/Desktop/My Coding/C++/Hotel Management System/main.cpp" "CMakeFiles/bin.dir/main.cpp.obj" "gcc" "CMakeFiles/bin.dir/main.cpp.obj.d"
+  "C:/Users/Pasan/Desktop/My Coding/C++/Hotel Management System/room.cpp" "CMakeFiles/bin.dir/room.cpp.obj" "gcc" "CMakeFiles/bin.dir/room.cpp.obj.d"
   )
 
 # Targets to which this target links.

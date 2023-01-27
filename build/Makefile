@@ -153,6 +153,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bin.dir/build.make CMakeFiles/bin.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+room.obj: room.cpp.obj
+.PHONY : room.obj
+
+# target to build an object file
+room.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bin.dir/build.make CMakeFiles/bin.dir/room.cpp.obj
+.PHONY : room.cpp.obj
+
+room.i: room.cpp.i
+.PHONY : room.i
+
+# target to preprocess a source file
+room.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bin.dir/build.make CMakeFiles/bin.dir/room.cpp.i
+.PHONY : room.cpp.i
+
+room.s: room.cpp.s
+.PHONY : room.s
+
+# target to generate assembly for a file
+room.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bin.dir/build.make CMakeFiles/bin.dir/room.cpp.s
+.PHONY : room.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +189,9 @@ help:
 	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... room.obj"
+	@echo "... room.i"
+	@echo "... room.s"
 .PHONY : help
 
 

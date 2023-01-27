@@ -104,4 +104,5 @@ CMakeFiles/bin.dir/main.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\basic_ios.tcc \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\ostream.tcc \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\istream \
- c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\istream.tcc
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\istream.tcc \
+ C:/Users/Pasan/Desktop/My\ Coding/C++/Hotel\ Management\ System/room.cpp

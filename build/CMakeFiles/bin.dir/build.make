@@ -83,18 +83,34 @@ CMakeFiles/bin.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bin.dir/main.cpp.s"
 	C:/MinGW/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:/Users/Pasan/Desktop/My Coding/C++/Hotel Management System/main.cpp" -o CMakeFiles/bin.dir/main.cpp.s
 
+CMakeFiles/bin.dir/room.cpp.obj: CMakeFiles/bin.dir/flags.make
+CMakeFiles/bin.dir/room.cpp.obj: C:/Users/Pasan/Desktop/My\ Coding/C++/Hotel\ Management\ System/room.cpp
+CMakeFiles/bin.dir/room.cpp.obj: CMakeFiles/bin.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:/Users/Pasan/Desktop/My Coding/C++/Hotel Management System/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/bin.dir/room.cpp.obj"
+	C:/MinGW/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bin.dir/room.cpp.obj -MF CMakeFiles/bin.dir/room.cpp.obj.d -o CMakeFiles/bin.dir/room.cpp.obj -c "C:/Users/Pasan/Desktop/My Coding/C++/Hotel Management System/room.cpp"
+
+CMakeFiles/bin.dir/room.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bin.dir/room.cpp.i"
+	C:/MinGW/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:/Users/Pasan/Desktop/My Coding/C++/Hotel Management System/room.cpp" > CMakeFiles/bin.dir/room.cpp.i
+
+CMakeFiles/bin.dir/room.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bin.dir/room.cpp.s"
+	C:/MinGW/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:/Users/Pasan/Desktop/My Coding/C++/Hotel Management System/room.cpp" -o CMakeFiles/bin.dir/room.cpp.s
+
 # Object files for target bin
 bin_OBJECTS = \
-"CMakeFiles/bin.dir/main.cpp.obj"
+"CMakeFiles/bin.dir/main.cpp.obj" \
+"CMakeFiles/bin.dir/room.cpp.obj"
 
 # External object files for target bin
 bin_EXTERNAL_OBJECTS =
 
 bin.exe: CMakeFiles/bin.dir/main.cpp.obj
+bin.exe: CMakeFiles/bin.dir/room.cpp.obj
 bin.exe: CMakeFiles/bin.dir/build.make
 bin.exe: CMakeFiles/bin.dir/linkLibs.rsp
 bin.exe: CMakeFiles/bin.dir/objects1
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:/Users/Pasan/Desktop/My Coding/C++/Hotel Management System/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:/Users/Pasan/Desktop/My Coding/C++/Hotel Management System/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable bin.exe"
 	"C:/Program Files/cmake-3.25.2-windows-x86_64/bin/cmake.exe" -E rm -f CMakeFiles/bin.dir/objects.a
 	C:/MinGW/bin/ar.exe qc CMakeFiles/bin.dir/objects.a @CMakeFiles/bin.dir/objects1
 	C:/MinGW/bin/c++.exe -Wl,--whole-archive CMakeFiles/bin.dir/objects.a -Wl,--no-whole-archive -o bin.exe -Wl,--out-implib,libbin.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/bin.dir/linkLibs.rsp

@@ -117,7 +117,8 @@ CMakeFiles/bin.dir/main.cpp.obj: C:/Users/Pasan/Desktop/My\ Coding/C++/Hotel\ Ma
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/basic_ios.tcc \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/ostream.tcc \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/istream \
-  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/istream.tcc
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/istream.tcc \
+  C:/Users/Pasan/Desktop/My\ Coding/C++/Hotel\ Management\ System/room.cpp
 
 
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/mingw32/bits/c++config.h:
@@ -339,3 +340,5 @@ C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/ostream.tcc:
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/istream:
 
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/istream.tcc:
+
+C:/Users/Pasan/Desktop/My\ Coding/C++/Hotel\ Management\ System/room.cpp:
