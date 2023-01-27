@@ -1,0 +1,3 @@
+C:/Users/Pasan/Desktop/My Coding/C++/Hotel Management System/build/CMakeFiles/bin.dir
+C:/Users/Pasan/Desktop/My Coding/C++/Hotel Management System/build/CMakeFiles/edit_cache.dir
+C:/Users/Pasan/Desktop/My Coding/C++/Hotel Management System/build/CMakeFiles/rebuild_cache.dir
