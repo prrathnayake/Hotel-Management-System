@@ -41,6 +41,23 @@ public:
         std::cout << "-------------------------------------------" << std::endl;
         std::cout << "            Check booked room           " << std::endl;
         std::cout << "-------------------------------------------" << std::endl;
+        std::fstream data;
+        data.open("room.txt", std::ios::in | std::ios::out);
+
+        if (!data)
+        {
+            std::cout << "File not exist!!!" << std::endl;
+        }
+        else
+        {
+            data >> roomID >> patientID >> startDate >> startDate;
+            while (!data.eof())
+            {
+                std::cout << "|  Room ID: " << roomID << "  |   Patient ID: " << patientID << "  |   Start Date: " << startDate << "  |   End Date: " << startDate << "  |" << std::endl;
+                data >> roomID >> patientID >> startDate >> endDate;
+            };
+        };
+        data.close();
     };
 
     void updateBookingDetails()
