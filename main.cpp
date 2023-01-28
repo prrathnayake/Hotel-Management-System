@@ -36,7 +36,7 @@ retry:
         room->updateBookingDetails();
         break;
     case 4:
-        room->cancelBooking();
+        room->deleteBooking();
         break;
     default:
         std::cout << "-------------------------------------------" << std::endl;
