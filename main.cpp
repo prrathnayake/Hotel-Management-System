@@ -30,7 +30,7 @@ retry:
         room->bookRoom();
         break;
     case 2:
-        room->checkAvailableRoom();
+        room->checkBookedRoom();
         break;
     case 3:
         room->updateBookingDetails();
